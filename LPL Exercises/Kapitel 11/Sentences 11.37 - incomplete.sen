@@ -1,0 +1,4 @@
+6.7wnds:Windows XP5.1SntFC1418571688641D1418574863918D1418575255961D1418575313960C1418577536560D1418577588261S1592520@x [Tet(x) | /y LeftOf(x, y)]@x /y [Tet(x) | /y LeftOf(x, y)]
+;Put a prenex form of 1 in this space.@x @y[(x # y & Cube(x) & Cube(y)) $ 
+           /z Between(z, y, x)]~@x ~@y /z[(x # y & Cube(x) & Cube(y)) & 
+            Between(z, y, x)]@x [(Cube(x) & /y Smaller(y, x)) $ Medium(x)]@x /y[ ~(Cube(x) &  Smaller(y, x)) |  Medium(x)]/x [Cube(x) $ @x Small(x)]/x @y[ ~Cube(x) | Small(y)]/x [Cube(x) $ @x Cube(x)]/x @x [ ~Cube(x)  |  Cube(x)]~[@x Cube(x) | @x Tet(x) | @x Dodec(x)]~(@x@y@z[Cube(x) | @x Tet(y) | Dodec(z)])~/x[Cube(x) & @y (Tet(y) $ /z Between(z, x, y))]~/x /z @y[Cube(x) &  (Tet(y) $  Between(z, x, y))]/x Cube(x) % @x Small(x)/x @y (Cube(x) % Small(y))~[@x Tet(x) % @y Small(y)]~(@x @y [ Tet(x) %  Small(y)])@v [/x Larger(x, v) % /x LeftOf(x, v)]@v( /x /y[Larger(x, v) % LeftOf(y, v)])s=152438;

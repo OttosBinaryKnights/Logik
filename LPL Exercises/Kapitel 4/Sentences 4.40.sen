@@ -1,0 +1,8 @@
+6.7wnds:Windows XP5.1SntFC1415497045091D1415497156319C1415532307591D1415533036015D1415534093301C1415564504172D1415564981877D1415565521969D1415565538275D1415565557619C1415567214938D1415567308558C1415567588980D1415567661033D1415567675997S3521515~[(Cube(a) & ~Small(a)) | (~Cube(a) & Small(a))]( ~Cube(a)  |  Small(a))  &  (Cube(a)  |  ~Small(a))
+; Put an NNF form of 1 here.( ~Cube(a)  |  Small(a))  &  (Cube(a)  |  ~Small(a))
+; Put a CNF form of 1 here.~[(Cube(a) | ~Small(a)) & (~Cube(a) | Small(a))]( ~Cube(a)  & Small(a))  | (Cube(a)  & ~Small(a))
+; Put an NNF form of 4 here. Notice the relationship 
+; with 2.(~Cube(a) | Cube(a)) & (Small(a) | Cube(a)) & (~Cube(a) | ~Small(a)) & (Small(a) | ~Small(a))~(Cube(a) & Larger(a, b)) & Dodec(b) ( ~Cube(a)  |  ~Larger(a,b))  &  Dodec(b)(~Cube(a) | ~Larger(a, b)) & Dodec(b)
+;Stimmt wrsl auch nicht~(~Cube(a) & Tet(b))Cube(a)  | ~Tet(b)Cube(a)  | ~Tet(b)~~Cube(a) | Tet(b)
+; Notice the difference between this sentence and 
+;10.Cube(a)  | Tet(b)Cube(a)  | Tet(b)s=161889;

@@ -1,0 +1,7 @@
+6.7wnds:Windows XP5.1SntFC1415496391228D1415496428621D1415496916219C1415534947271D1415535457298D1415535775357C1415566235988D1415567110145S2066110(LeftOf(a, b) | BackOf(a, b)) & Cube(a)(LeftOf(a, b)  & Cube(a)) | (BackOf(a,b)  &  Cube(a))
+; Write a sentence in disjunctive normal form (DNF)
+; that is logically equivalent to the CNF sentence
+; in (1).  Do the same thing for the sentences below.Larger(a, b) & (Cube(a) | Tet(a) | a = b)(Larger(a,b) & Cube(a)) | (Larger(a,b) & Tet(a)) | (Larger(a,b)  & a = b)(Between(a, b, c) | Tet(a) | ~Tet(b)) & Dodec(c)(Between(a, b, c) & Dodec(c)) | (Tet(a) & Dodec(c)) | (~Tet(b) & Dodec(c))Cube(a) & Cube(b) & (~Small(a) | ~Small(b))(Cube(a)  &  Cube(b)   &  ~Small(a))   |  (Cube(a)  &  Cube(b)   &  ~Small(b))
+;Korrigiert(Small(a) | Medium(a)) & (Cube(a) | ~Dodec(a))(Small(a) & Cube(a)) | (Medium(a) & Cube(a)) | (Small(a) & ~Dodec(a)) | (Medium(a) & ~Dodec(a))
+;Nicht DNF: ~((~Small(a) & ~Medium(a))  | (~Cube(a) & Dodec(a)))
+;Keine Ahnung wie man das Ausmultiplizieren soll??s=162751;
